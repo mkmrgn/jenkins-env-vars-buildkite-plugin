@@ -17,6 +17,5 @@ steps:
 
 1. Fork the repo
 2. Make the changes
-3. Run the tests
-4. Commit and push your changes
-5. Send a pull request
+3. Commit and push your changes
+4. Send a pull request
