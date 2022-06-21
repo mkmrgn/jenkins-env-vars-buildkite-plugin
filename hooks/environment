@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+
+# A full list of Buildkite's environment variables can be found here: 
+# https://buildkite.com/docs/pipelines/environment-variables
+
+export BUILD_NUMBER="${BUILDKITE_BUILD_NUMBER}"
+export JOB_NAME="${BUILDKITE_PIPELINE_SLUG}"
+export BUILD_URL="${BUILDKITE_BUILD_URL}"
