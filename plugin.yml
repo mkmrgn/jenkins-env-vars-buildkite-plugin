@@ -1,0 +1,4 @@
+name: Jenkins Environment Variables
+description: Converts Buildkite env vars to their Jenkins equivilents 
+author: https://github.com/mkmrgn
+requirements: []
